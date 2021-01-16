@@ -31,10 +31,10 @@ jobs:
               with:
                 node-version: '12.x'
                 
-            - name: Run install
+            - name: 安装依赖
               run: npm install
               
-            - name: Run Script
+            - name: 运行【京东签到】
               run: node jd_sign.js
                 
             - name: Upload result file
